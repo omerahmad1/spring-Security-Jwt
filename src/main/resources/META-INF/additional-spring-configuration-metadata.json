@@ -1,0 +1,372 @@
+{"properties": [
+  {
+    "name": "spring.datasource.driver.class.name",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.driver.class.name'"
+  },
+  {
+    "name": "spring.jpa.hibernate.generate-ddl",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.jpa.hibernate.generate-ddl'"
+  },
+  {
+    "name": "appender.rolling.type",
+    "type": "java.lang.String",
+    "description": "A description for 'appender.rolling.type'"
+  },
+  {
+    "name": "appender.audit_rolling.filePattern",
+    "type": "java.lang.String",
+    "description": "A description for 'appender.audit_rolling.filePattern'"
+  },
+  {
+    "name": "appender.rolling.fileName",
+    "type": "java.lang.String",
+    "description": "A description for 'appender.rolling.fileName'"
+  },
+  {
+    "name": "appender.rolling.layout.type",
+    "type": "java.lang.String",
+    "description": "A description for 'appender.rolling.layout.type'"
+  },
+  {
+    "name": "appender.rolling.policies.size.type",
+    "type": "java.lang.String",
+    "description": "A description for 'appender.rolling.policies.size.type'"
+  },
+  {
+    "name": "appender.rolling.strategy.type",
+    "type": "java.lang.String",
+    "description": "A description for 'appender.rolling.strategy.type'"
+  },
+  {
+    "name": "appender.rolling.strategy.action.type",
+    "type": "java.lang.String",
+    "description": "A description for 'appender.rolling.strategy.action.type'"
+  },
+  {
+    "name": "appender.rolling.filter.threshold.type",
+    "type": "java.lang.String",
+    "description": "A description for 'appender.rolling.filter.threshold.type'"
+  },
+  {
+    "name": "logger.rolling.name",
+    "type": "java.lang.String",
+    "description": "A description for 'logger.rolling.name'"
+  },
+  {
+    "name": "logger.rolling.level",
+    "type": "java.lang.String",
+    "description": "A description for 'logger.rolling.level'"
+  },
+  {
+    "name": "logger.rolling.additivity",
+    "type": "java.lang.String",
+    "description": "A description for 'logger.rolling.additivity'"
+  },
+  {
+    "name": "logger.rolling.appenderRef.rolling.ref",
+    "type": "java.lang.String",
+    "description": "A description for 'logger.rolling.appenderRef.rolling.ref'"
+  },
+  {
+    "name": "logger.rolling.appenderRef.rolling.ref",
+    "type": "java.lang.String",
+    "description": "A description for 'logger.rolling.appenderRef.rolling.ref'"
+  },
+  {
+    "name": "appender.rolling.filter.threshold.level",
+    "type": "java.lang.String",
+    "description": "A description for 'appender.rolling.filter.threshold.level'"
+  },
+  {
+    "name": "appender.rolling.strategy.action.PathConditions.glob",
+    "type": "java.lang.String",
+    "description": "A description for 'appender.rolling.strategy.action.PathConditions.glob'"
+  },
+  {
+    "name": "appender.rolling.strategy.action.PathConditions.type",
+    "type": "java.lang.String",
+    "description": "A description for 'appender.rolling.strategy.action.PathConditions.type'"
+  },
+  {
+    "name": "appender.rolling.strategy.action.condition.age",
+    "type": "java.lang.String",
+    "description": "A description for 'appender.rolling.strategy.action.condition.age'"
+  },
+  {
+    "name": "appender.rolling.strategy.action.condition.type",
+    "type": "java.lang.String",
+    "description": "A description for 'appender.rolling.strategy.action.condition.type'"
+  },
+  {
+    "name": "appender.rolling.strategy.action.maxdepth",
+    "type": "java.lang.String",
+    "description": "A description for 'appender.rolling.strategy.action.maxdepth'"
+  },
+  {
+    "name": "appender.rolling.strategy.action.basepath",
+    "type": "java.lang.String",
+    "description": "A description for 'appender.rolling.strategy.action.basepath'"
+  },
+  {
+    "name": "appender.rolling.strategy.max",
+    "type": "java.lang.String",
+    "description": "A description for 'appender.rolling.strategy.max'"
+  },
+  {
+    "name": "appender.rolling.policies.size.size",
+    "type": "java.lang.String",
+    "description": "A description for 'appender.rolling.policies.size.size'"
+  },
+  {
+    "name": "appender.rolling.policies.type",
+    "type": "java.lang.String",
+    "description": "A description for 'appender.rolling.policies.type'"
+  },
+  {
+    "name": "appender.rolling.name",
+    "type": "java.lang.String",
+    "description": "A description for 'appender.rolling.name'"
+  },
+  {
+    "name": "appender.rolling.layout.pattern",
+    "type": "java.lang.String",
+    "description": "A description for 'appender.rolling.layout.pattern'"
+  },
+  {
+    "name": "appender.rolling.filePattern",
+    "type": "java.lang.String",
+    "description": "A description for 'appender.rolling.filePattern'"
+  },
+  {
+    "name": "appender.rolling.filePattern",
+    "type": "java.lang.String",
+    "description": "A description for 'appender.rolling.filePattern'"
+  },
+  {
+    "name": "logger.rolling.appenderRef.rolling.ref",
+    "type": "java.lang.String",
+    "description": "A description for 'logger.rolling.appenderRef.rolling.ref'"
+  },
+  {
+    "name": "appender.rolling.fileName",
+    "type": "java.lang.String",
+    "description": "A description for 'appender.rolling.fileName'"
+  },
+  {
+    "name": "appender.rolling.strategy.action.PathConditions.type",
+    "type": "java.lang.String",
+    "description": "A description for 'appender.rolling.strategy.action.PathConditions.type'"
+  },
+  {
+    "name": "appender.rolling.strategy.action.PathCondition.type",
+    "type": "java.lang.String",
+    "description": "A description for 'appender.rolling.strategy.action.PathCondition.type'"
+  },
+  {
+    "name": "appender.rolling.strategy.action.PathCondition.type",
+    "type": "java.lang.String",
+    "description": "A description for 'appender.rolling.strategy.action.PathCondition.type'"
+  },
+  {
+    "name": "log4j.rootLogger",
+    "type": "java.lang.String",
+    "description": "A description for 'log4j.rootLogger'"
+  },
+  {
+    "name": "log4j.appender.stdout",
+    "type": "java.lang.String",
+    "description": "A description for 'log4j.appender.stdout'"
+  },
+  {
+    "name": "log4j.appender.stdoutTarget",
+    "type": "java.lang.String",
+    "description": "A description for 'log4j.appender.stdoutTarget'"
+  },
+  {
+    "name": "log4j.appender.stdoutLayout",
+    "type": "java.lang.String",
+    "description": "A description for 'log4j.appender.stdoutLayout'"
+  },
+  {
+    "name": "log4j.appender.stdoutKayout.ConversionPattern",
+    "type": "java.lang.String",
+    "description": "A description for 'log4j.appender.stdoutKayout.ConversionPattern'"
+  },
+  {
+    "name": "rootLogger.level",
+    "type": "java.lang.String",
+    "description": "A description for 'rootLogger.level'"
+  },
+  {
+    "name": "rootLogger.appenderRefs",
+    "type": "java.lang.String",
+    "description": "A description for 'rootLogger.appenderRefs'"
+  },
+  {
+    "name": "rootLogger.appenderRef.rolling.ref",
+    "type": "java.lang.String",
+    "description": "A description for 'rootLogger.appenderRef.rolling.ref'"
+  },
+  {
+    "name": "appender.rolling.policies.time.type",
+    "type": "java.lang.String",
+    "description": "A description for 'appender.rolling.policies.time.type'"
+  },
+  {
+    "name": "status",
+    "type": "java.lang.String",
+    "description": "A description for 'status'"
+  },
+  {
+    "name": "log4j.appender.file.MaxFileSize",
+    "type": "java.lang.String",
+    "description": "A description for 'log4j.appender.file.MaxFileSize'"
+  },
+  {
+    "name": "log4j.appender.file.MaxBackupIndex",
+    "type": "java.lang.String",
+    "description": "A description for 'log4j.appender.file.MaxBackupIndex'"
+  },
+  {
+    "name": "log4j.appender.file.MaxFileSize",
+    "type": "java.lang.String",
+    "description": "A description for 'log4j.appender.file.MaxFileSize'"
+  },
+  {
+    "name": "log4j2.rootLogger.level",
+    "type": "java.lang.String",
+    "description": "A description for 'log4j2.rootLogger.level'"
+  },
+  {
+    "name": "log4j2.rootLogger.appenderRef.console.ref",
+    "type": "java.lang.String",
+    "description": "A description for 'log4j2.rootLogger.appenderRef.console.ref'"
+  },
+  {
+    "name": "log4j2.appender.console.type",
+    "type": "java.lang.String",
+    "description": "A description for 'log4j2.appender.console.type'"
+  },
+  {
+    "name": "log4j2.appender.console.target",
+    "type": "java.lang.String",
+    "description": "A description for 'log4j2.appender.console.target'"
+  },
+  {
+    "name": "log4j2.appender.console.layout.type",
+    "type": "java.lang.String",
+    "description": "A description for 'log4j2.appender.console.layout.type'"
+  },
+  {
+    "name": "log4j2.appender.console.layout.pattern",
+    "type": "java.lang.String",
+    "description": "A description for 'log4j2.appender.console.layout.pattern'"
+  },
+  {
+    "name": "log4j2.level.org.springframework",
+    "type": "java.lang.String",
+    "description": "A description for 'log4j2.level.org.springframework'"
+  },
+  {
+    "name": "log4j2.level.org.hibernate",
+    "type": "java.lang.String",
+    "description": "A description for 'log4j2.level.org.hibernate'"
+  },
+  {
+    "name": "log4j2.level.com.spring.security.jwt",
+    "type": "java.lang.String",
+    "description": "A description for 'log4j2.level.com.spring.security.jwt'"
+  },
+  {
+    "name": "name",
+    "type": "java.lang.String",
+    "description": "A description for 'name'"
+  },
+  {
+    "name": "set",
+    "type": "java.lang.String",
+    "description": "A description for 'set'"
+  },
+  {
+    "name": "application-prod.properties",
+    "type": "java.lang.String",
+    "description": "A description for 'application-prod.properties'"
+  },
+  {
+    "name": "application-dev.properties",
+    "type": "java.lang.String",
+    "description": "A description for 'application-dev.properties'"
+  },
+  {
+    "name": "server.email",
+    "type": "java.lang.String",
+    "description": "A description for 'server.email'"
+  },
+  {
+    "name": "server.cluster[0].ip",
+    "type": "java.lang.String",
+    "description": "A description for 'server.cluster[0].ip'"
+  },
+  {
+    "name": "server.cluster[0].path",
+    "type": "java.lang.String",
+    "description": "A description for 'server.cluster[0].path'"
+  },
+  {
+    "name": "server.cluster[1].ip",
+    "type": "java.lang.String",
+    "description": "A description for 'server.cluster[1].ip'"
+  },
+  {
+    "name": "server.cluster[2].ip",
+    "type": "java.lang.String",
+    "description": "A description for 'server.cluster[2].ip'"
+  },
+  {
+    "name": "server.cluster[2].path",
+    "type": "java.lang.String",
+    "description": "A description for 'server.cluster[2].path'"
+  },
+  {
+    "name": "server.cluster[1].path",
+    "type": "java.lang.String",
+    "description": "A description for 'server.cluster[1].path'"
+  },
+  {
+    "name": "server.username",
+    "type": "java.lang.String",
+    "description": "A description for 'server.username'"
+  },
+  {
+    "name": "key",
+    "type": "java.lang.String",
+    "description": "A description for 'key'"
+  },
+  {
+    "name": "value.from.file",
+    "type": "java.lang.String",
+    "description": "A description for 'value.from.file'"
+  },
+  {
+    "name": "priority",
+    "type": "java.lang.String",
+    "description": "A description for 'priority'"
+  },
+  {
+    "name": "listOfValues",
+    "type": "java.lang.String",
+    "description": "A description for 'listOfValues'"
+  },
+  {
+    "name": "listOfValues",
+    "type": "java.lang.String",
+    "description": "A description for 'listOfValues'"
+  },
+  {
+    "name": "listOfValues",
+    "type": "java.lang.String",
+    "description": "A description for 'listOfValues'"
+  }
+]}

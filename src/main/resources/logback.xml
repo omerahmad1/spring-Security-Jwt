@@ -1,0 +1,33 @@
+<configuration>
+    <appender name="STDOUT"
+        class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss} %-5level %logger{36} - %msg%n</pattern>
+        </encoder>
+    </appender>
+     <appender name="ROLLING" class="ch.qos.logback.core.rolling.RollingFileAppender">
+    <file>logs/app.log</file>
+    <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+      <!-- Set the file pattern for rolling -->
+      <fileNamePattern>logs/app-%d{yyyy-MM-dd hh.mm}.log.gz</fileNamePattern>
+      <!-- Set the maximum number of backup files to keep -->
+      <maxHistory>2</maxHistory>
+      <!-- Set the maximum file size before rolling -->
+     <!-- Set the clean history on start -->
+      <cleanHistoryOnStart>true</cleanHistoryOnStart> 
+    </rollingPolicy>
+    
+    <encoder>
+      <!-- Specify the layout pattern for log messages -->
+      <pattern>%d{yyyy-MM-dd HH:mm:ss}  %-5level %logger{36} - %msg%n</pattern>
+    </encoder>
+  </appender>
+    <logger name="com.spring.security.jwt" level="DEBUG" additivity="false">
+        <appender-ref ref="STDOUT" />
+        <appender-ref ref="ROLLING" />
+    </logger>
+    <root level="DEBUG">
+        <appender-ref ref="STDOUT" />
+        <appender-ref ref="ROLLING" />
+    </root>
+</configuration>

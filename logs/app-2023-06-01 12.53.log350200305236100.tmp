@@ -1,0 +1,4 @@
+2023-06-01 12:53:17  DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-12 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-01 12:53:17  DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-12 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
+2023-06-01 12:53:47  DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-12 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2023-06-01 12:53:47  DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-12 - Fill pool skipped, pool has sufficient level or currently being filled (queueDepth=0).
