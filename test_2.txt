@@ -1,1 +1,2 @@
-Conficts merge is remove 
+Finally merge the branch to another one
+
