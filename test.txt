@@ -1,1 +1,1 @@
-When the commit are equal then merge the changes in file
+tttt
